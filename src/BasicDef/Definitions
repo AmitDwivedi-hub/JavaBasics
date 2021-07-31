@@ -1,0 +1,62 @@
+Java:
+
+>Object oriented programming
+>Portable - write once, compile once and run everywhere
+>Java does not run on native processor, but it runs on a virtual machine called , JVM. JVM runs on the top of our
+    native operating system.Because of this abstraction, java compiled byte code can run on any machine as long as
+    it has JVM installed on it.
+>very popular on server side applications
+
+
+what are some features of java:
+
+1>Simple, object oriented and familiar
+2>Robust and secure
+3>Architecture neutral due to concept of JVM
+4>High Performance and portable
+5>Interpreted, dynamic(type definition is static though),multithreaded
+
+JVM(Java Virtiual Machine):
+==============================
+
+1>It is the runtime VM , in which a java program is run.
+2>Takes the compiled java bytecode and runs it.
+3>Has a specification , that outlines how it should work
+4>There are multiple implementation of JVM available in the market, which are build on specification defined for JVM.
+5>Essential in making java platform independent.
+
+JRE:
+===========================
+1>Stands for Java Runtime environment.
+2>It is a set of software element, which together run a java application on a machine
+3>it consists of
+        >ClassLoader
+        >JVM
+        >Libraries and utilities
+4>JRE orchestrates activities between these software element to run java application. For eg, it will ask the classloader to
+ load the java classes and once classes are loaded, it will will take the bytecode and ask the JVM to run it.
+
+5>Installed on the machine, where java application needs to run.
+
+What is JDK:
+==================
+
+1>Stands for Java Development kit
+2>It is a set of tool to help developers write java code.
+3>Comes with JRE(because we need to run, what we develop)
+4>Based on java language specification
+3>It includes:
+    >Java compiler
+    >Class library
+    >Utility(like linker,loader etc.)
+
+difference between JRE,jvm,JDK:
+=======================================
+JDK: SOFTWARE used for building java applications
+JRE: SOFTWARE used for running java applications. If we just want to run a java execuatble, we don't need JDK.
+JVM: ABSTRACT VIRTUAL MACHINE that JRE spins up to run the java application 'in'.
+
+
+
+
+
